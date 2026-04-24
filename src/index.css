@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #f5f1e8;
+  --color-brand-surface: #ffffff;
+  --color-brand-surface-hover: #f0ebe1;
+  --color-brand-border: #e2dcd0;
+  --color-brand-primary: #0b7285;
+  --color-brand-primary-hover: #085a6a;
+  --color-brand-secondary: #c99a5b;
+  --color-text-main: #1f2933;
+  --color-text-muted: #5e6c7a;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
