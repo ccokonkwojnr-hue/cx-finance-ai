@@ -16,19 +16,20 @@ export default function Footer() {
             <div className="mb-2">
                <span className="text-xs font-bold text-text-muted/70 uppercase tracking-widest">As seen on:</span>
             </div>
-            <div className="flex flex-wrap gap-x-4 gap-y-2 text-text-muted text-sm font-bold opacity-80">
+            <div className="flex flex-wrap gap-x-4 gap-y-2 text-text-muted text-sm font-bold opacity-80 mb-2">
               <span className="hover:text-text-main transition-colors cursor-default">Forbes</span>
               <span className="hover:text-text-main transition-colors cursor-default">Cointelegraph</span>
               <span className="hover:text-text-main transition-colors cursor-default">CoinDesk</span>
               <span className="hover:text-text-main transition-colors cursor-default">Yahoo Finance</span>
             </div>
+            <p className="text-[10px] italic text-text-muted/60">(Placeholder media logos for concept presentation purposes only)</p>
           </div>
           
           <div>
             <h4 className="text-text-main font-bold mb-4">Features</h4>
             <ul className="space-y-2 text-sm text-text-muted">
               <li><a href="#market-intelligence" className="hover:text-brand-primary transition-colors">Market Intelligence</a></li>
-              <li><a href="#trading-execution" className="hover:text-brand-primary transition-colors">Trading & Execution</a></li>
+              <li><a href="#trading-execution" className="hover:text-brand-primary transition-colors">Strategy & Simulation</a></li>
               <li><a href="#research-analysis" className="hover:text-brand-primary transition-colors">Research & Analysis</a></li>
               <li><a href="#portfolio" className="hover:text-brand-primary transition-colors">Portfolio</a></li>
             </ul>
@@ -40,7 +41,7 @@ export default function Footer() {
               <li><a href="#pricing" className="hover:text-brand-primary transition-colors">Pricing</a></li>
               <li><a href="#affiliates" className="hover:text-brand-primary transition-colors">Affiliates</a></li>
               <li><a href="#news" className="hover:text-brand-primary transition-colors">News</a></li>
-              <li><a href="#" className="hover:text-brand-primary transition-colors">Documentation</a></li>
+              <li><a href="#prompts" className="hover:text-brand-primary transition-colors">Documentation</a></li>
             </ul>
           </div>
 
@@ -58,7 +59,7 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <p className="text-text-muted/70 text-sm">© 2026 CX Finance AI. All rights reserved.</p>
             <p className="text-xs text-text-muted/50 max-w-lg">
-              CX FINANCE AI is a concept product designed and developed by Chukiextra as a proof-of-concept for AI-driven finance workflows.
+              CX FINANCE AI is a concept product designed and developed end-to-end by Chukiextra as a proof-of-concept for AI-driven finance education workflows. For partnerships or hiring enquiries, visit chukiextra.com
             </p>
           </div>
           <div className="flex items-center gap-4 text-sm text-text-muted/70">

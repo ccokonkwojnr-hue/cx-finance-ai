@@ -9,7 +9,7 @@ export default function Affiliates() {
           <p className="text-brand-primary font-bold tracking-wide uppercase text-sm mb-4">Partner Program</p>
           <h2 className="font-display text-4xl lg:text-5xl font-bold mb-6 tracking-tight">Become a CX FINANCE AI Affiliate</h2>
           <p className="text-text-muted text-lg mb-8">
-            Join the financial AI revolution. Promote the world's most advanced autonomous trading platform and earn a generous recurring commission on every subscriber you refer.
+            Join the financial AI revolution. Promote the world's most advanced AI-powered educational finance platform and earn a generous recurring commission on every subscriber you refer.
           </p>
           
           <button className="bg-brand-primary hover:bg-brand-primary-hover text-white px-8 py-4 rounded-full font-bold transition-colors inline-flex items-center gap-2">

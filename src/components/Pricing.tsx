@@ -51,7 +51,7 @@ export default function Pricing() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-4xl lg:text-5xl font-bold mb-6 tracking-tight">Simple pricing. Start free.</h2>
-          <p className="text-text-muted text-lg mb-8">All plans include a 14-day free trial. No credit card required. Plans launch end of April 2026.</p>
+          <p className="text-text-muted text-lg mb-8">All plans include a 14-day free trial. No credit card required. Plans launching Q3 2026.</p>
           
           <div className="inline-flex items-center p-1 bg-brand-surface border border-brand-border rounded-full">
             <button 

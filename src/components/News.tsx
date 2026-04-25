@@ -68,9 +68,14 @@ export default function News() {
               </p>
               
               <div className="pt-6 border-t border-brand-border mt-auto">
-                <span className="text-sm font-bold text-brand-primary inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                  Read Article <ArrowRight className="w-4 h-4" />
-                </span>
+                <div className="flex flex-col gap-2">
+                  <span className="text-sm font-bold text-brand-primary inline-flex items-center gap-1 group-hover:gap-2 transition-all w-fit">
+                    Read Article <ArrowRight className="w-4 h-4" />
+                  </span>
+                  <span className="text-[10px] text-text-muted/60 italic leading-none">
+                    (Demo article — full content coming soon)
+                  </span>
+                </div>
               </div>
             </motion.div>
           ))}

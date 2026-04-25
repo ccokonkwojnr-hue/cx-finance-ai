@@ -108,8 +108,8 @@ export default function TryForFreeModal({ isOpen, onClose }: TryForFreeModalProp
 
                   <div>
                     <label className="block text-xs font-bold text-text-muted uppercase tracking-wider mb-2">Trading Experience</label>
-                    <select required className="w-full bg-brand-bg border border-brand-border text-text-main rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all cursor-pointer">
-                      <option value="" disabled selected hidden>Select experience level...</option>
+                    <select required defaultValue="" className="w-full bg-brand-bg border border-brand-border text-text-main rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all cursor-pointer">
+                      <option value="" disabled hidden>Select experience level...</option>
                       <option value="beginner">Beginner</option>
                       <option value="intermediate">Intermediate</option>
                       <option value="advanced">Advanced</option>
@@ -118,8 +118,8 @@ export default function TryForFreeModal({ isOpen, onClose }: TryForFreeModalProp
 
                   <div>
                     <label className="block text-xs font-bold text-text-muted uppercase tracking-wider mb-2">Primary Interest</label>
-                    <select required className="w-full bg-brand-bg border border-brand-border text-text-main rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all cursor-pointer">
-                      <option value="" disabled selected hidden>Select primary interest...</option>
+                    <select required defaultValue="" className="w-full bg-brand-bg border border-brand-border text-text-main rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all cursor-pointer">
+                      <option value="" disabled hidden>Select primary interest...</option>
                       <option value="signals">Signals</option>
                       <option value="research">Research</option>
                       <option value="risk">Risk</option>
